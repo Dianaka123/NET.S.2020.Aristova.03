@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET.S.2020.Aristova.03", "NET.S.2020.Aristova.03\NET.S.2020.Aristova.03.csproj", "{54B2A716-1846-48D1-A1A7-3C8AD1B4C81E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tets", "Tets\Tets.csproj", "{4F73C2AA-BDC7-4751-AB86-FA2BE72C44C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54B2A716-1846-48D1-A1A7-3C8AD1B4C81E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54B2A716-1846-48D1-A1A7-3C8AD1B4C81E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54B2A716-1846-48D1-A1A7-3C8AD1B4C81E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54B2A716-1846-48D1-A1A7-3C8AD1B4C81E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F73C2AA-BDC7-4751-AB86-FA2BE72C44C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F73C2AA-BDC7-4751-AB86-FA2BE72C44C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F73C2AA-BDC7-4751-AB86-FA2BE72C44C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F73C2AA-BDC7-4751-AB86-FA2BE72C44C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {514CD42F-E36B-4812-B4F2-62C962D6024C}
+	EndGlobalSection
+EndGlobal
