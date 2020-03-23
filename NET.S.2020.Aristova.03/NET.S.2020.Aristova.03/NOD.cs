@@ -7,7 +7,7 @@ namespace NET.S._2020.Aristova._03
 {
     public class NOD
     {
-        public int[] ArrayNumb { get; set; }
+        public int[] ArrayNumb { get; private set; }
 
 
         private Stopwatch evklidTIme;
@@ -18,6 +18,12 @@ namespace NET.S._2020.Aristova._03
             ArrayNumb = arrayNumb;
         }
 
+        /// <summary>
+        /// Нахождение НОД по методу Евклида
+        /// min - минимальное число в массиве
+        /// max - максимальное число в массиве
+        /// </summary>
+        /// <returns>НОД 2-ух чисел</returns>
         public int EvklidNOD()
         {
             evklidTIme = new Stopwatch();
@@ -40,6 +46,12 @@ namespace NET.S._2020.Aristova._03
             return FoundNOD(max, min);
         }
 
+        /// <summary>
+        /// Нахождение НОД бинарным методом Евклида
+        /// min - минимальное число в массиве
+        /// max - максимальное число в массиве
+        /// </summary>
+        /// <returns>НОД 2-ух чисел</returns>
         public uint BinaryGCD()
         {
             binTime = new Stopwatch();
@@ -60,11 +72,19 @@ namespace NET.S._2020.Aristova._03
             return GCD(max, min);
         }
 
+        /// <summary>
+        /// Время нахождение НОД для Евклидового метода
+        /// </summary>
+        /// <returns>Время нахождения НОД</returns>
         public double GetEvklidTime()
         {
             return evklidTIme.Elapsed.TotalMilliseconds;
         }
 
+        /// <summary>
+        /// Время нахождения НОД для Бинарного Евклидового метода
+        /// </summary>
+        /// <returns>Время нахождения НОД</returns>
         public double GetBinTime()
         {
             return binTime.Elapsed.TotalMilliseconds;
